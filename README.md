@@ -1,4 +1,6 @@
 # F22-Starter-Microservice
+- Jesse Chong
+- jlc2332@columbia.edu
 
 ## Introduction
 
