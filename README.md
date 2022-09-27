@@ -37,3 +37,7 @@ Select the file ```tts.py``` and run it. The message will determine if your end-
 The file ```columbia_student_resource.py``` is a simple, starter REST resource.
 
 
+## On the cloud
+- Run these commands instead:
+  - ```pip3 install -r requirements.txt```
+  - ```python3 application.py```
