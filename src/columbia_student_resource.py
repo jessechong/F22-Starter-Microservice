@@ -11,13 +11,17 @@ class ColumbiaStudentResource:
     @staticmethod
     def _get_connection():
 
-        usr = os.environ.get("DBUSER")
-        pw = os.environ.get("DBPW")
-        h = os.environ.get("DBHOST")
-        # usr = "root"
-        # pw = "password"
+        # usr = os.environ.get("DBUSER")
+        # pw = os.environ.get("DBPW")
         # h = os.environ.get("DBHOST")
 
+        pw = "password"
+        ## Local config
+        # usr = "root"
+        # h = "localhost"
+        ## Cloud config
+        usr = "admin"
+        h = "e6156.cfsphgu5szou.us-west-2.rds.amazonaws.com"
         conn = pymysql.connect(
             user=usr,
             password=pw,
